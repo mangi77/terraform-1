@@ -61,3 +61,4 @@ else
 		echo -e "${Red} jenkins is not start please check manually $NC"
 	fi
 fi
+hello
