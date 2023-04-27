@@ -1,15 +1,4 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
-    }
-  }
-  required_version = ">= 1.2.0"
-}
-provider "aws" {
-  region  = "us-east-1"
-}
+
 resource "aws_security_group" "allow_22and80" {
   name        = "allow_22and80"
   description = "Allow 22 and 80"
