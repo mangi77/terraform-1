@@ -44,6 +44,6 @@ resource "aws_instance" "myfirstterraformec2" {
   echo "hello from Terraform" > index.html
   EOF
   tags = {
-    Name  = "userdata-apache"
+    Name  = "userdata-nginx"
   }
 }
